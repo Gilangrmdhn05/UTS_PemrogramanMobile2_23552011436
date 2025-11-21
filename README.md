@@ -1,16 +1,19 @@
-# uts_app
+# Jawaban
 
-A new Flutter project.
+## Perbedaan Cubit dan Bloc
+**Cubit:** lebih sederhana, langsung memanggil fungsi untuk mengubah state (tanpa event).
 
-## Getting Started
+**Bloc:** lebih kompleks, menggunakan event → state, cocok untuk aplikasi besar.
 
-This project is a starting point for a Flutter application.
+## Alasan memisahkan model data, logika bisnis, dan UI
+Agar kode rapi, mudah dirawat, mudah diuji, tidak saling bergantung, dan mudah dikembangkan.
 
-A few resources to get you started if this is your first Flutter project:
+## Tiga contoh state dalam Cubit/Bloc
+**Initial State:** keadaan awal sebelum proses dimulai.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+**Loading State:** saat proses sedang berjalan.
+
+
+**Success State:** proses berhasil dan data siap ditampilkan.
+
