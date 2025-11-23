@@ -1,3 +1,10 @@
+**Nama**: Gilang Ramadhan Herdian
+
+**NIM**: 23552011436
+
+**Kelas**: TIF RP 23 CNS A
+
+
 # Jawaban
 
 ## Perbedaan Cubit dan Bloc
